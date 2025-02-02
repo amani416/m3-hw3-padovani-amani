@@ -5,70 +5,117 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Learn all about a talented Irish musician, Hozier." content="This page will be about the artist, Hozier.">
 
-    <title>Learn about Hozier</title>
+    <title>Photos of Hozier</title>
+    <style>
+        div.gallery {
+          border: 1px solid #ccc;
+        }
+        
+        div.gallery:hover {
+          border: 1px solid #777;
+        }
+        
+        div.gallery img {
+          width: 100%;
+          height: auto;
+        }
+        
+        div.desc {
+          padding: 15px;
+          text-align: center;
+        }
+        
+        * {
+          box-sizing: border-box;
+        }
+        
+        .responsive {
+          padding: 0 6px;
+          float: left;
+          width: 24.99999%;
+        }
+        
+        @media only screen and (max-width: 700px) {
+          .responsive {
+            width: 49.99999%;
+            margin: 6px 0;
+          }
+        }
+        
+        @media only screen and (max-width: 500px) {
+          .responsive {
+            width: 100%;
+          }
+        }
+        
+        .clearfix:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+        </style>
+
+
 </head>
 
 <body>
     <header>
-            <h1>About | Hozier</h1>
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="about.html">Home</a>
-                <a href="contact.html">Home</a>
-            </nav>
+        <h1><a href="index.html">Hozier</a></h1>
     </header>
 
     <main>
         <section>
-            <h2>about Headings</h2>
+            <h2>Images xxx</h2>
 
-            <h1>about Heading1</h1>
-            <h2>about Heading</h2>
-            <h3>about Heading</h3>
-            <h4>about Heading</h4>
-            <h5>about Heading</h5>
-            <h6>about Heading</h6>
-        </section>
-
-        <section>
-            <h2>Paragraphs</h2>
-
-            <p>This will just be <a href="https://ufl.edu">this is a link</a> text about Hozier. a paragraph will be here.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A modi exercitationem voluptatem hic vel ea esse odio rem amet, s<br>unt, expedita enim corrupti, mollitia non alias nobis placeat officiis ex?</p>
-        </section>
-
-        <section>
-            <h2>Lists</h2>
-            <h3>Unordered Lists</h3>
-
-            <h4>Popular songs</h4>
-            <ul>
-                <li><a href="https://www.youtube.com/watch?v=NTpbbQUBbuo&ab_channel=HozierVEVO">Too Sweet</a></li>
-                <li>Take Me To Church</li>
-                <li>Work Song</li>
-            </ul>
-
-            <h3>Ordered Lists</h3>
-            <h4>Most Views</h4>
-            <ol>
-                <li>first</li>
-                <li>second</li>
-                <li>third</li>
-            </ol>
-        </section>
-
-        <section>
-            <h2>Images</h2>
-            <h3>in smaller text</h3>
-            <img src="https://rgm.press/wp-content/uploads/2023/07/Hozier-5-770x513.jpg" alt="Image of Hozier singing into a microphone and playing the guitar on stage.">
-
-            <h3>On my website</h3>
-            <img src="hozier_potrait.jpg" alt="Potrait of Hozier looking straight into the camera with his hair down.">
         </section>
     </main>
 
+    <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="Hozier_on_stage.jpg">
+            <img src="Hozier_on_stage.jpg" alt="Hozier singing on stage." width="600" height="400">
+          </a>
+          <div class="desc">Add a description of the image here</div>
+        </div>
+      </div>
+      
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="soldoutsyracuse.jpg">
+            <img src="soldoutsyracuse.jpg" alt="Performing at a sold out show." width="600" height="400">
+          </a>
+          <div class="desc">Add a description of the image here</div>
+        </div>
+      </div>
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="philadelphia.jpg">
+            <img src="philadelphia.jpg" alt="Performing in Philly" width="600" height="400">
+          </a>
+          <div class="desc">Add a description of the image here</div>
+        </div>
+      </div>
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="heintz_lizzie_hozier-1024x683.jpg">
+            <img src="heintz_lizzie_hozier-1024x683.jpg" alt="Update this!!!" width="600" height="400">
+          </a>
+          <div class="desc">Add a description of the image here</div>
+        </div>
+      </div>
+      
+      <div class="clearfix"></div>
+      
+      <div style="padding:6px;">
+        <p>This example use media queries to re-arrange the images on different screen sizes: for screens larger than 700px wide, it will show four images side by side, for screens smaller than 700px, it will show two images side by side. For screens smaller than 500px, the images will stack vertically (100%).</p>
+        <p>You will learn more about media queries and responsive web design later in our CSS Tutorial.</p>
+      </div>
+
     <footer>
-        <p>This about website was created by Amani Padovani.</p>
+        <p>This website was last updated on Feb 2025.</p>
     </footer>
 
 </body>
