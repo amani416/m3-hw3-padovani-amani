@@ -4,193 +4,147 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="Learn all about a talented Irish musician, Hozier." content="This page will be about the artist, Hozier.">
-
   <title>Hozier Photo Gallery</title>
+  <style>        
+    * { box-sizing: border-box; }    
 
-  <style>
-    div.gallery { border: 1px solid #ccc;}
-    div.gallery:hover { border: 1px solid #777; }
-    div.gallery img {
-      width: 100%;
-      height: auto;
-    }     
-        
-    * { box-sizing: border-box; }
-        
     .box {
-      padding: 0 6px;
-      float: left;
-      width: 24.99999%;}
-        
-    @media only screen and (max-width: 700px) {
-      .box {
-        width: 49.99999%;
-        margin: 6px 0;
+      width: 100%;
+      float: left;}
+
+      @media only screen and (min-width: 480px) {
+        .box {
+          width: 50%;
+        }
       }
-    }
-        
-    @media only screen and (max-width: 500px) {
-      .box { width: 100%;}
-    }
-        
-    .clearfix:after {
-      content: "";
-      display: table;
-      clear: both;}
 
-    hr { 
-      display: block;
-      margin-top: 0.5em;
-      margin-bottom: 0.5em;
-      margin-left: auto;
-      margin-right: auto;
-      border-style: inset;
-      border-width: 1px;
-    } 
+      @media only screen and (min-width: 768px) {
+        .box {
+          width: 25%;
+        }
+      }
 
-      
+      img {
+        width: 100%;
+        height: 200px;
+        padding: 4px;
+        object-fit: cover;
+      }      
   </style>
 </head>
 
 <body>
     <header>
         <h1><a href="index.html">Hozier</a></h1>
+        <nav>
+          <a href="index.html">Home</a> |
+          <a href="https://open.spotify.com/artist/2FXC3k01G6Gw61bmprjgqS?si=0MbOH8MtRZC8g2vTz3f2_A" target="_blank">Spotify</a> |
+          <a href="https://usstore.hozier.com/pages/tour?srsltid=AfmBOooJ5zCBWhRt1w8mDRjNRFzSukLyDbrFVWquxRqF8W0OvtzpbZcp" target="_blank">Tour</a> |
+      </nav>
     </header>
 
     <main>
 
       <section>
         <h2>Potraits of Hozier</h2>
-        <div class="box">
-          <div class="gallery">
+        <div class="gallery">
+          <div class="box">
             <a target="_blank" href="hozier1.png">
-            <img src="hozier1.png" alt="Photo of Hozier." width="600" height="400"></a>
+              <img src="hozier1.png" alt="Photo of Hozier." width="600" height="400">
+            </a>
           </div>
-        </div>
-      
-        <div class="box">
-          <div class="gallery">
+          <div class="box">
             <a target="_blank" href="hozier2.jpg">
-            <img src="hozier2.jpg" alt="Photo of Hozier." width="600" height="400"></a>
+              <img src="hozier2.jpg" alt="Photo of Hozier." width="600" height="400">
+            </a>          
           </div>
-        </div>
-      
-        <div class="box">
-          <div class="gallery">
+          <div class="box">
             <a target="_blank" href="hozier3.jpg">
-            <img src="hozier3.jpg" alt="Photo of Hozier" width="600" height="400"></a>
+              <img src="hozier3.jpg" alt="Photo of Hozier" width="600" height="400">
+            </a>
           </div>
-        </div>
-      
-        <div class="box">
-          <div class="gallery">
+          <div class="box">
             <a target="_blank" href="hozier4.png">
-            <img src="hozier4.png" alt="Photo of Hozier" width="600" height="400"></a>
+              <img src="hozier4.png" alt="Photo of Hozier" width="600" height="400">
+            </a>
           </div>
         </div>
-        <hr>
       </section>
-
-
 
       <section>
         <h2>Hozier singing on stage</h2>
-        
-        <div class="box">
-          <div class="gallery">
+        <div class="gallery">
+          <div class="box">
             <a target="_blank" href="stage1.jpg">
-            <img src="stage1.jpg" alt="Hozier singing on stage." width="600" height="400"></a>
+              <img src="stage1.jpg" alt="Hozier singing on stage." width="600" height="400">       
+            </a>
           </div>
-        </div>
-
-        <div class="box">
-          <div class="gallery">
+          <div class="box">
             <a target="_blank" href="stage2.png">
-            <img src="stage2.png" alt="Performing at a sold out show." width="600" height="400"></a> 
+              <img src="stage2.png" alt="Hozier singing on stage." width="600" height="400">
+            </a> 
           </div>
-        </div>
-
-        <div class="box">
-          <div class="gallery">
+          <div class="box">
             <a target="_blank" href="stage3.jpg">
-            <img src="stage3.jpg" alt="Performing in Philly" width="600" height="400"></a>
+              <img src="stage3.jpg" alt="Hozier singing on stage." width="600" height="400">
+            </a>
           </div>
-        </div>
-
-        <div class="box">
-          <div class="gallery">
+          <div class="box">
             <a target="_blank" href="stage4.jpg">
-            <img src="stage4.jpg" alt="Update this!!!" width="600" height="400"></a>
+              <img src="stage4.jpg" alt="Hozier singing on stage." width="600" height="400">
+            </a>
           </div>
-        </div>
-
-        <div class="box">
-          <div class="gallery">
+          <div class="box">
             <a target="_blank" href="stage5.jpg">
-            <img src="stage5.jpg" alt="Update this!!!" width="600" height="400"></a>
+              <img src="stage5.jpg" alt="Hozier singing on stage." width="600" height="400">
+            </a>
           </div>
-        </div>
-
-        <div class="box">
-          <div class="gallery">
+          <div class="box">
             <a target="_blank" href="stage6.jpg">
-            <img src="stage6.jpg" alt="Update this!!!" width="600" height="400"></a>
+              <img src="stage6.jpg" alt="Hozier singing on stage." width="600" height="400">
+            </a>
+          </div>
+          <div class="box">
+            <a target="_blank" href="stage7.jpg">
+              <img src="stage7.jpg" alt="Hozier singing on stage." width="600" height="400">
+            </a>
+          </div>
+          <div class="box">
+            <a target="_blank" href="stage8.png">
+              <img src="stage8.png" alt="Hozier singing on stage." width="600" height="400">
+            </a>
           </div>
         </div>
-        <hr>
       </section>
-
 
       <section>
-        <hr>
         <h2>Album Covers</h2>
-
-        <div class="box">
-          <div class="gallery">
+        <div class="gallery">
+          <div class="box">
             <a target="_blank" href="album1.jpg">
-            <img src="album1.jpg" alt="Album cover" width="600" height="400"></a>
+              <img src="album1.jpg" alt="Album cover" width="600" height="400">
+            </a>
           </div>
-        </div>
-
-
-        <div class="box">
-          <div class="gallery">
-          <a target="_blank" href="album2.png">
-          <img src="album2.png" alt="Album cover." width="600" height="400"></a>
+          <div class="box">
+            <a target="_blank" href="album2.png">
+              <img src="album2.png" alt="Album cover." width="600" height="400">
+            </a>
           </div>
-        </div>
-
-        <div class="box">
-          <div class="gallery">
+          <div class="box">
             <a target="_blank" href="album3.jpg">
-            <img src="album3.jpg" alt="Album cover" width="600" height="400"></a>
+              <img src="album3.jpg" alt="Album cover" width="600" height="400">
+            </a>
           </div>
-        </div>
-
-        <div class="box">
-          <div class="gallery">
+          <div class="box">
             <a target="_blank" href="album4.png">
-            <img src="album4.png" alt="Album cover" width="600" height="400"></a>
+              <img src="album4.png" alt="Album cover" width="600" height="400">
+            </a>
           </div>
         </div>
       </section>
 
-
-<section>
-  <figure>
-  <img src="hozier.jpg" alt="Hozier on stage" width="500">
-  <figcaption>Fig. 1 - Potrait of Hozier</figcaption>
-</figure>
-</section>
-
+  <div style="padding:6px;"></div>
   </main>
-      
-      <div class="clearfix"></div>
-      
-      <div style="padding:6px;">
-        <p>This example use media queries to re-arrange the images on different screen sizes: for screens larger than 700px wide, it will show four images side by side, for screens smaller than 700px, it will show two images side by side. For screens smaller than 500px, the images will stack vertically (100%).</p>
-        <p>You will learn more about media queries and responsive web design later in our CSS Tutorial.</p>
-      </div>
 
     <footer>
         <p>This website was last updated on Feb 2025.</p>
